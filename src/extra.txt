@@ -1,0 +1,37 @@
+---------------------------------------------homr ----------------------------------------------------
+       {/* <div className=" overflow-x-hidden relative p-8 ">
+        <div className="">
+          <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-green-500 pt-10 text-center p-5  font-bold text-3xl">
+            <RevealOnScroll>Our Hr service</RevealOnScroll>
+          </h1>
+        </div>
+        <div className="">
+          <RevealOnScroll>
+            <div className=" md:grid lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
+              <img
+                className="w-[500px] rounded-2xl mx-auto  "
+                src={img}
+                alt="/"
+              />
+              <div className="flex flex-col lg:pl-5 justify-center">
+               
+                <p className="pt-0 p-3 text-xl text-black">
+                  <RevealOnScroll>
+                    Arrow TeleLink offers HR services just to professionals in
+                    the telecommunications and technology fields, with a focus
+                    on voice, SMS, business messaging, and managed services.
+                  </RevealOnScroll>
+                </p>
+                <p className="pt-0 p-3 text-xl">
+                  The only people who use our services are Telecommunication
+                  Providers (MNOs, Aggregators, Solution Providers, etc.) who
+                  need to hire specific employees who meet certain standards.
+                </p>
+                <div className="p-3">
+                  <button className="rounded-md p-5 text-white bg-green-500 ">Read More</button>
+                </div>
+              </div>
+            </div>
+          </RevealOnScroll>
+        </div>
+      </div> */}
