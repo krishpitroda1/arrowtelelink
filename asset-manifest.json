@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.635e6eed.css",
-    "main.js": "/Home/static/js/main.3857398a.js",
-    "static/js/787.fda24d20.chunk.js": "/Home/static/js/787.fda24d20.chunk.js",
-    "static/media/manage.png": "/Home/static/media/manage.2c436e11aa41d6f18067.png",
-    "static/media/consult.jpg": "/Home/static/media/consult.ee18fc6c7c27869b844b.jpg",
-    "static/media/fn4.mp4": "/Home/static/media/fn4.d985f24b3761fe491edc.mp4",
-    "static/media/logo.png": "/Home/static/media/logo.c9e82d49ac5234440d02.png",
-    "static/media/wa.png": "/Home/static/media/wa.5464980c398c3c73af37.png",
-    "static/media/circle.png": "/Home/static/media/circle.e89c99f7823bec8a12e0.png",
-    "static/media/mail.png": "/Home/static/media/mail.79b3e98131a972a6d554.png",
-    "static/media/tech.jpeg": "/Home/static/media/tech.bdc981a6c3618f087eea.jpeg",
-    "static/media/cons.jpeg": "/Home/static/media/cons.f1655d77b649fc9a8902.jpeg",
-    "static/media/hr.jpeg": "/Home/static/media/hr.23bb50c2e7ce36ba9e92.jpeg",
-    "index.html": "/Home/index.html",
-    "main.635e6eed.css.map": "/Home/static/css/main.635e6eed.css.map",
-    "main.3857398a.js.map": "/Home/static/js/main.3857398a.js.map",
-    "787.fda24d20.chunk.js.map": "/Home/static/js/787.fda24d20.chunk.js.map"
+    "main.css": "/Arrowtelelink/static/css/main.635e6eed.css",
+    "main.js": "/Arrowtelelink/static/js/main.c4a82894.js",
+    "static/js/787.fda24d20.chunk.js": "/Arrowtelelink/static/js/787.fda24d20.chunk.js",
+    "static/media/manage.png": "/Arrowtelelink/static/media/manage.2c436e11aa41d6f18067.png",
+    "static/media/consult.jpg": "/Arrowtelelink/static/media/consult.ee18fc6c7c27869b844b.jpg",
+    "static/media/fn4.mp4": "/Arrowtelelink/static/media/fn4.d985f24b3761fe491edc.mp4",
+    "static/media/logo.png": "/Arrowtelelink/static/media/logo.c9e82d49ac5234440d02.png",
+    "static/media/wa.png": "/Arrowtelelink/static/media/wa.5464980c398c3c73af37.png",
+    "static/media/circle.png": "/Arrowtelelink/static/media/circle.e89c99f7823bec8a12e0.png",
+    "static/media/mail.png": "/Arrowtelelink/static/media/mail.79b3e98131a972a6d554.png",
+    "static/media/tech.jpeg": "/Arrowtelelink/static/media/tech.bdc981a6c3618f087eea.jpeg",
+    "static/media/cons.jpeg": "/Arrowtelelink/static/media/cons.f1655d77b649fc9a8902.jpeg",
+    "static/media/hr.jpeg": "/Arrowtelelink/static/media/hr.23bb50c2e7ce36ba9e92.jpeg",
+    "index.html": "/Arrowtelelink/index.html",
+    "main.635e6eed.css.map": "/Arrowtelelink/static/css/main.635e6eed.css.map",
+    "main.c4a82894.js.map": "/Arrowtelelink/static/js/main.c4a82894.js.map",
+    "787.fda24d20.chunk.js.map": "/Arrowtelelink/static/js/787.fda24d20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.635e6eed.css",
-    "static/js/main.3857398a.js"
+    "static/js/main.c4a82894.js"
   ]
 }
