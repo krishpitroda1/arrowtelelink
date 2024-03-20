@@ -63,23 +63,23 @@ function Navbar() {
             
             <div className="dropdown hidden absolute mt-4  p-12 pr-3 text-lg bg-white shadow-xl rounded-lg">
             <ul>
-              <li  className="hover:text-sky-600 hover:font-bold  block ">
+              <li  className="hover:text-green-600 hover:font-bold  block ">
                 <Link to='/Hr'>
                 Hr Services
                 </Link>
               </li>
 
-              <li  className="hover:text-sky-600 hover:font-bold  block ">
+              <li  className="hover:text-green-600 hover:font-bold  block ">
                 <Link to='/Consultancy'>
                 Consulting
                 </Link>
                 </li>
-              <li  className="hover:text-sky-600 hover:font-bold  block ">
+              <li  className="hover:text-green-600 hover:font-bold  block ">
                 <Link to='/Managehubs'>
                 Managed Services
                 </Link>
                 </li>
-                <li  className="hover:text-sky-600 hover:font-bold  block ">
+                <li  className="hover:text-green-600 hover:font-bold  block ">
                 <Link to="/Technology">
                 Technology Marketplace
                 </Link>

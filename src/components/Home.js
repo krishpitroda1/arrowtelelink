@@ -1,13 +1,12 @@
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
 import Navbar from "./Navbar";
 import videobg from "../assets/fn4.mp4";
 // import Divs from "./Divs";
 import { useEffect, useState, useRef } from "react";
 import img from "../assets/hr.jpeg";
 import img1 from '../assets/cons.jpeg';
-import img4 from '../assets/tech.jpeg'
-import img3 from "../assets/manage.png";
+import img4 from '../assets/tech2.jpg'
+import img3 from "../assets/manage.jpg";
 import { Link } from "react-router-dom";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -203,7 +202,7 @@ function Home() {
         <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
           Technology Marketplace with Arrowtelelink
         </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
+        <div className=" lg:flex md:grid md:grid-cols-2 md:p-0 sm:p-0">
           <img
             src={img4}
             className="w-[500px] mx-auto   my-4 rounded-2xl"

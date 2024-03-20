@@ -212,7 +212,7 @@ function End() {
               </Link>
               <Link
                 className="w-10 h-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-                to="https://www.linkedin.com/company/smscloudhub/"
+                to="https://www.linkedin.com/company/arrow-telelink/"
               >
                 <FaLinkedin className="text-xl" />
               </Link>

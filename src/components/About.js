@@ -1,6 +1,5 @@
 import React, { useEffect ,useState,useRef} from "react";
-import img from "../assets/consult.jpg";
-
+import img from "../assets/ab.jpg";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -42,7 +41,6 @@ function About() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-green-500 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-
           About Us
         </RevealOnScroll>
         </h1>

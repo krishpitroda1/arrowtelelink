@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/manage.png";
+import img1 from "../assets/manage.jpg";
 import { useState,useRef,useEffect } from "react";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
