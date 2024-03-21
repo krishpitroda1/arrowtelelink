@@ -1,5 +1,7 @@
 import React from "react";
-import img1 from "../assets/manage.jpg";
+import img2 from "../assets/manage.jpg";
+import img1 from "../assets/circle.png";
+
 import { useState,useRef,useEffect } from "react";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,27 +41,57 @@ function Managehubs() {
       <div className=" w-screen pt-8 relative pb-8">
       <RevealOnScroll>
 
-        <h1 className="align-center text-gray-500  pt-16 text-center p-5  font-bold text-4xl">
+        <h1 className=" text-green-500  pt-16 text-center p-5  font-bold text-4xl">
           Managed Services with Arrowtelelink
         </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
+        <div className=" lg:grid-cols-2 grid md:grid-cols-1  lg:p-5 md:p-0 sm:p-0">
           <img
-            src={img1}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
+            src={img2}
+            className="w-[500px] mx-auto my-4 rounded-2xl"
             alt=""
           />
-          <div className="flex flex-col justify-center text-center mx-auto ">
-            <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Focus to your core Business Operations  <br /> <span className="text-gray-400">and leaving the technical and operational <br /> aspects to Arrowtelelink  </span></p>
-             <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
-
-             Arrowtelelink is the first choice  to mangae <br /> the SMS Hubs for Telecom Operators
-             </p>
-            </RevealOnScroll>
+          <div className="mx-auto p-5 pt-10">
+          <p className="text-blue-600 text-2xl font-bold">
+            Welcome to our Consulting Services! We provide expert guidance to
+            help you navigate the ever-evolving telecom and technology
+            landscape.Our team of experienced consultants brings a wealth of
+            industry knowledge to deliver tailored solutions for your specific
+            challenges.
+          </p>
+          <div>
+            <p className="pt-5 text-2xl font-bold text-green-500">Let us manage your cumbersome Operations</p>
+            <div className="pt-4 grid lg:grid-cols-1 text-blue-600 md:grid-cols-1">
+              <div className="flex text-xl pt-1 ">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>Our Team is deployed remotely to manage the complete backend for Telcos</p>
+              </div>
+              <div className="flex text-xl pt-1">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>We can provide network monitoring and network monitoring</p>
+              </div>
+              <div className="flex text-xl pt-1">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>We can provide security,optimization,procurment</p>
+              </div>
+              <div className="flex text-xl pt-1">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>We can provide wholsale platform and SMSC management</p>
+              </div>
+              <div className="flex text-xl pt-1">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>Telco can use Arrowtelelink's services</p>
+              </div>
+              <div className="flex text-xl pt-1">
+                <img src={img1} alt="" className="h-7 w-7" />
+                <p>Arrowtelelink 's expertise to maximize both cost and effciency</p>
+              </div>
+            </div>
           </div>
+            
+       </div>
         </div>
         </RevealOnScroll>
-        <div className="">
+        {/* <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
           Let us manage your cumbersome Operations
@@ -98,7 +130,7 @@ function Managehubs() {
             </RevealOnScroll>
           </div>
         </div>
-      </div>
+      </div> */}
       </div>
     </div>
   );

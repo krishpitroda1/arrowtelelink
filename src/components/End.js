@@ -132,7 +132,7 @@ function End() {
                     to="/Carrers"
                   >
                     Careers
-                  </Link>{" "}
+                  </Link>
                   <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
                     We're hiring
                   </span>

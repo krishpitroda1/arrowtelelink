@@ -4,7 +4,7 @@ import img from "../assets/hr.jpeg";
 function Consultancy() {
   return (
     <div className="pt-16">
-      <h1 className="w-screen text-green-500 pt-10 text-center p-5 font-bold text-4xl">
+      <h1 className="w-screen text-green-500 pt-16 text-center p-5 font-bold text-4xl">
         Consulting
       </h1>
       <div className="w-screen grid  lg:grid-cols-2 md:grid-cols-1">
