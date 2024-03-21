@@ -38,7 +38,7 @@ const RevealOnScroll = ({ children }) => {
 function Managehubs() {
   return (
     <div>
-      <div className=" w-screen pt-8 relative pb-8">
+      <div className=" w-screen pt-8 relative pb-8 ">
       <RevealOnScroll>
 
         <h1 className=" text-green-500  pt-16 text-center p-5  font-bold text-4xl">
@@ -51,7 +51,7 @@ function Managehubs() {
             alt=""
           />
           <div className="mx-auto p-5 pt-10">
-          <p className="text-blue-600 text-2xl font-bold">
+          <p className="text-blue-600 text-4xl font-bold">
             Welcome to our Consulting Services! We provide expert guidance to
             help you navigate the ever-evolving telecom and technology
             landscape.Our team of experienced consultants brings a wealth of

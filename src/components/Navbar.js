@@ -63,6 +63,17 @@ function Navbar() {
             
             <div className="dropdown hidden absolute mt-4  p-12 pr-3 text-lg bg-white shadow-xl rounded-lg">
             <ul>
+            <li  className="hover:text-green-600 hover:font-bold  block ">
+                <Link to="/A2p">
+                A2P SMS
+                </Link>
+                </li>
+                <li  className="hover:text-green-600 hover:font-bold  block ">
+                <Link to="/Voice">
+                Voice
+                </Link>
+                </li>
+         
               <li  className="hover:text-green-600 hover:font-bold  block ">
                 <Link to='/Hr'>
                 Hr Services
@@ -84,7 +95,7 @@ function Navbar() {
                 Technology Marketplace
                 </Link>
                 </li>
-         
+           
             </ul>
             </div>
           </p>
@@ -137,7 +148,7 @@ function Navbar() {
           </li>
           <li className="border-b  border-gray-600 py-7">
             <Link
-              className="dropdown-link py-7   md:block hover:text-orange-400"
+              className="dropdown-link py-7 md:block hover:text-orange-400"
               
               onClick={() => setShowMenu(!showMenu)}
             >
@@ -161,6 +172,23 @@ function Navbar() {
             </Link>
           </li>
           <div className={`relative ml-10 ${showMenu ? "block" : "hidden"}`}>
+          <li className="border-b  border-gray-600">
+              <Link
+                to="/A2p"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                A2P SMS
+              </Link>
+            </li>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Voice"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                Voice
+              </Link>
+            </li>
+     
             <li className="border-b  border-gray-600">
               <Link
                 to="/Hr"

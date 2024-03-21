@@ -1,6 +1,6 @@
 import React, { useRef, useState,useEffect } from "react";
 import Jobs from './Jobs'
-import Life from './Life'
+// import Life from './Life'
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -44,10 +44,10 @@ function Carrers() {
       <Jobs/>
       </RevealOnScroll>
     
-      <RevealOnScroll>
+      {/* <RevealOnScroll>
 
       <Life/>
-      </RevealOnScroll>
+      </RevealOnScroll> */}
     </div>
   )
 }

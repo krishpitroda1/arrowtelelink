@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Privacy from "./components/Privacy";
 import End from './components/End';
 import WA from "./components/WA";
+import A2p from "./components/A2p";
+import Voice from "./components/Voice";
 import Error from "./components/Error";
 import Consultancy from "./components/Consultancy";
 import Technology from "./components/Technology";
@@ -20,6 +22,7 @@ import ParticleBackground from "./components/ParticlesBackground";
 import HashLoader from "react-spinners/HashLoader";
  import { useState} from "react";
 import { keyframes } from "styled-components";
+import Carrers from "./components/Carrers";
 import PulseLoader from 'react-spinners/PulseLoader'
 function App() {
   const override={
@@ -76,6 +79,9 @@ function App() {
         <Route path="/Hr" element={<Hr/>}/>
         <Route path="/Technology" element={<Technology/>}/>
         <Route path="/Consultancy" element={<Consultancy/>}/>
+        <Route path="/A2p" element={<A2p/>}/>
+        <Route path="/Voice" element={<Voice/>}/>
+        <Route path="/Carrers" element={<Carrers/>}/>
        
         <Route path="/Privacy" element={<Privacy/>} />
         <Route path="*" element={<Error/>} />
