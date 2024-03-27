@@ -49,7 +49,7 @@ function Privacy() {
            Who are we
         </p>
           <p className="p-4  pb-0 ml-4 text-lg font-sans">
-          Arrowtelelink (“us”, “we”, or “our”) operates CloudSkool++  app (the “Mobile app”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Mobile APP.
+          Arrow Telelink (“us”, “we”, or “our”) operates CloudSkool++  app (the “Mobile app”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Mobile APP.
         </p>
           <p className="p-4  pb-0 font-bold text-lg font-sans">
           Communications
@@ -61,7 +61,7 @@ function Privacy() {
          Security
           </p>
           <p className="p-4 ml-4 pb-0  text-lg font-sans">
-          The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security. We, Arrowtelelink do not share the personal information with anyone or any third party. All the Student/Parents information is kept confidential. We suggest Students/Parents not to share the login id and password with anyone and change the password on regular basis.
+          The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security. We, Arrow Telelink do not share the personal information with anyone or any third party. All the Student/Parents information is kept confidential. We suggest Students/Parents not to share the login id and password with anyone and change the password on regular basis.
           </p>
            <p className="p-4 pb-0  text-xl font-sans font-bold">
            Changes to This Privacy Policy

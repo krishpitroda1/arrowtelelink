@@ -91,7 +91,7 @@ function Home() {
             className="md:text-2xl text-xl relative font-bold pt-0 p-5 text-white
             "
           >
-            We are Arrowtelelink, a leading recruitment company committed to
+            We are Arrow Telelink, a leading recruitment company committed to
             connecting exceptional talent with organizations across various
             industries{" "}
           </p>
@@ -102,7 +102,7 @@ function Home() {
       <RevealOnScroll>
 
         <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          HR Services with Arrowtelelink
+          HR Services with Arrow Telelink
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
           <img
@@ -135,7 +135,7 @@ function Home() {
       <RevealOnScroll>
 
         <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Consultancy Services with Arrowtelelink
+          Consultancy Services with Arrow Telelink
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
           <img
@@ -145,7 +145,7 @@ function Home() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Adopting a proactive company model   <br /> <span className="text-green-500">is essential to their survival and expansion <br /> aspects to Arrowtelelink  </span></p>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Adopting a proactive company model   <br /> <span className="text-green-500">is essential to their survival and expansion <br /> aspects to Arrow Telelink  </span></p>
              <p className="text-center p-5 text-blue-500 lg:text-3xl text-2xl ">
 
              The businesses that can quickly and adeptly change <br /> and create new value will be the ones <br /> that succeed in the future  </p>
@@ -167,7 +167,7 @@ function Home() {
       <RevealOnScroll>
 
         <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Managed Services with Arrowtelelink
+          Managed Services with Arrow Telelink
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
           <img
@@ -177,10 +177,10 @@ function Home() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Focus to your core Business Operations  <br /> <span className="text-green-500">and leaving the technical and operational <br /> aspects to Arrowtelelink  </span></p>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Focus to your core Business Operations  <br /> <span className="text-green-500">and leaving the technical and operational <br /> aspects to Arrow Telelink  </span></p>
              <p className="text-center p-5 text-blue-500 lg:text-3xl text-2xl ">
 
-             Arrowtelelink is the first choice  to mangae <br /> the SMS Hubs for Telecom Operators
+             Arrow Telelink is the first choice  to mangae <br /> the SMS Hubs for Telecom Operators
              </p>
             </RevealOnScroll>
         <div className="p-3">
@@ -200,7 +200,7 @@ function Home() {
       <RevealOnScroll>
 
         <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Technology Marketplace with Arrowtelelink
+          Technology Marketplace with Arrow Telelink
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2 md:p-0 sm:p-0">
           <img

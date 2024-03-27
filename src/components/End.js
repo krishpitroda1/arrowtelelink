@@ -57,7 +57,7 @@ function End() {
                 }}
                 aria-label="Brand"
               >
-                <img src={Logo} alt="Arrowtelelink" />
+                <img src={Logo} alt="Arrow Telelink" />
               </div>
             </div>
 
@@ -199,7 +199,7 @@ function End() {
           <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
             <div className="flex justify-between items-center">
               <p className="text-sm text-gray-400 cursor-text">
-                ©All Rights Reserved by Arrowtelelink.
+                ©All Rights Reserved by Arrow Telelink.
               </p>
             </div>
 

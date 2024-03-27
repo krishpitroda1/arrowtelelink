@@ -42,7 +42,7 @@ function Managehubs() {
       <RevealOnScroll>
 
         <h1 className=" text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Managed Services with Arrowtelelink
+          Managed Services with Arrow Telelink
         </h1>
         <div className=" lg:grid-cols-2 grid md:grid-cols-1  lg:p-5 md:p-0 sm:p-0">
           <img
@@ -79,11 +79,11 @@ function Managehubs() {
               </div>
               <div className="flex text-xl pt-1">
                 <img src={img1} alt="" className="h-7 w-7" />
-                <p>Telco can use Arrowtelelink's services</p>
+                <p>Telco can use Arrow Telelink's services</p>
               </div>
               <div className="flex text-xl pt-1">
                 <img src={img1} alt="" className="h-7 w-7" />
-                <p>Arrowtelelink 's expertise to maximize both cost and effciency</p>
+                <p>Arrow Telelink 's expertise to maximize both cost and effciency</p>
               </div>
             </div>
           </div>

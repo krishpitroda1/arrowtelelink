@@ -5,7 +5,7 @@ function Voice() {
   return (
     <div className=" w-screen relative pt-8">
     <h1 className=" text-green-500 pt-16 text-center p-5 font-bold text-4xl ">
-    Elevate Your Communications with Arrowtelelink VoIP Solutions  </h1>
+    Elevate Your Communications with Arrow Telelink VoIP Solutions  </h1>
       <div className=" lg:grid-cols-2 md:grid md:grid-cols-1 lg:p-5 md:p-0 sm:p-0">
         <img
           src={img1}
@@ -21,7 +21,7 @@ Routing and Top-tier Service   </p>
               <div className="">
       
       <p className="text-green-500 pt-3 pb-3  font-bold text-2xl">
-        Benefits of Voice with Arrowtelelink
+        Benefits of Voice with Arrow Telelink
       </p>
     
 

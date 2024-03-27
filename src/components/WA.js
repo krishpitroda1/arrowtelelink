@@ -38,7 +38,7 @@ const WA = () => {
     <div className="w-screen relative pt-8 pb-8">
       <RevealOnScroll>
         <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
-          Arrowtelelink's WhatsApp Suite: Boost Engagement & Efficiency!{" "}
+          Arrow Telelink's WhatsApp Suite: Boost Engagement & Efficiency!{" "}
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
           <img
@@ -100,7 +100,7 @@ const WA = () => {
           <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Features Of WhatsApp Service with Arrowtelelink
+            Features Of WhatsApp Service with Arrow Telelink
           </p>
         </RevealOnScroll>
     

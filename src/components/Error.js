@@ -7,7 +7,7 @@ function Error() {
     <div class="max-w-[50rem] flex flex-col mx-auto w-full h-full">
       <header class="mb-auto flex justify-center z-50 w-full py-4">
         <nav class="px-4 sm:px-6 lg:px-8" aria-label="Global">
-          <a class="flex-none text-xl font-semibold sm:text-3xl" href="#" aria-label="Brand">Arrowtelelink</a>
+          <a class="flex-none text-xl font-semibold sm:text-3xl" href="#" aria-label="Brand">Arrow Telelink</a>
         </nav>
       </header>
 
