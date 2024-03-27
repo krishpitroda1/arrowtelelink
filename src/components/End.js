@@ -69,6 +69,18 @@ function End() {
               </RevealOnScroll>
                 <RevealOnScroll>
               <div className="mt-3 grid space-y-3 ">
+              <Link
+                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
+                  to="/A2p"
+                >
+                  A2P SMS
+                </Link>
+                <Link
+                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
+                  to="/Voice"
+                >
+                  Voice
+                </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
                   to="/Hr"

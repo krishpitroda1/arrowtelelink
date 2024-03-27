@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState, useRef } from "react";
 import img2 from '../assets/circle.png'
-import img1 from '../assets/ab.jpg'
+import img1 from '../assets/a2p.png'
 function A2p() {
     useEffect(() => {
         window.scrollTo(0, 0);

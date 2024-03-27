@@ -1,6 +1,6 @@
 import React from 'react'
 import img2 from '../assets/circle.png'
-import img1 from '../assets/ab.jpg'
+import img1 from '../assets/voice.png'
 function Voice() {
   return (
     <div className=" w-screen relative pt-8">

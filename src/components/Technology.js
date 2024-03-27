@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from "../assets/circle.png";
-import img2 from "../assets/hr.jpeg";
+import img2 from "../assets/tech.jpg";
 
 function Technology() {
   return (

@@ -51,7 +51,7 @@ function Managehubs() {
             alt=""
           />
           <div className="mx-auto p-5 pt-10">
-          <p className="text-blue-600 text-4xl font-bold">
+          <p className="text-blue-600 text-2xl font-bold">
             Welcome to our Consulting Services! We provide expert guidance to
             help you navigate the ever-evolving telecom and technology
             landscape.Our team of experienced consultants brings a wealth of

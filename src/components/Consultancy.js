@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/circle.png";
-import img from "../assets/hr.jpeg";
+import img from "../assets/cons.jpeg";
 function Consultancy() {
   return (
     <div className="pt-16">
