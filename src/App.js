@@ -9,20 +9,20 @@ import Privacy from "./components/Privacy";
 import End from './components/End';
 import WA from "./components/WA";
 import A2p from "./components/A2p";
+import Services from "./components/Services";
 import Voice from "./components/Voice";
 import Error from "./components/Error";
 import Consultancy from "./components/Consultancy";
 import Technology from "./components/Technology";
 import Hr from "./components/Hr";
-import Jobs from "./components/Jobs";
+// import Jobs from "./components/Jobs";
 // import Particles from "./components/Particle";
 import Managehubs from "./components/Managehubs";
 import { Route, Routes } from "react-router-dom";
-import ParticleBackground from "./components/ParticlesBackground";
 import HashLoader from "react-spinners/HashLoader";
  import { useState} from "react";
 import { keyframes } from "styled-components";
-import Carrers from "./components/Carrers";
+// import Carrers from "./components/Carrers";
 import PulseLoader from 'react-spinners/PulseLoader'
 function App() {
   const override={
@@ -56,7 +56,7 @@ function App() {
   });
   return (
    <div>
-    {
+    {/* {
       loading ? <HashLoader
       color={color}
       loading={loading}
@@ -64,7 +64,7 @@ function App() {
       size={50}
       aria-label="Loading Spinner"
       data-testid="loader" 
-    />: 
+    />:  */}
     <div>
     <Navbar />
    {/* <ParticleBackground/> */}
@@ -74,15 +74,15 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
         <Route path="/WA" element={<WA/>} />
-        <Route path="/Jobs" element={<Jobs/>} />
+        {/* <Route path="/Jobs" element={<Jobs/>} /> */}
         <Route path="/Managehubs" element={<Managehubs/>}/>
         <Route path="/Hr" element={<Hr/>}/>
         <Route path="/Technology" element={<Technology/>}/>
         <Route path="/Consultancy" element={<Consultancy/>}/>
         <Route path="/A2p" element={<A2p/>}/>
         <Route path="/Voice" element={<Voice/>}/>
-        <Route path="/Carrers" element={<Carrers/>}/>
-       
+        {/* <Route path="/Carrers" element={<Carrers/>}/> */}
+       <Route path="/Services" element= {<Services/>}/>
         <Route path="/Privacy" element={<Privacy/>} />
         <Route path="*" element={<Error/>} />
          </Routes>
@@ -90,7 +90,7 @@ function App() {
     <End className="absolute"/>
   </div>
 
-    }
+    
     </div>
   
   );

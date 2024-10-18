@@ -48,7 +48,7 @@ function End() {
         <RevealOnScroll>
         <div className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
         
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-10">
             <div className="col-span-full lg:col-span-1">
               <div
                 className="flex-none text-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer"
@@ -57,57 +57,10 @@ function End() {
                 }}
                 aria-label="Brand"
               >
-                <img src={Logo} alt="Arrow Telelink" />
+                <img src={Logo} alt="CloudContactCenter" />
               </div>
             </div>
 
-            <div className="lg:pl-8 col-span-1">
-              <RevealOnScroll>
-              <p className="font-semibold text-gray-100 cursor-pointer">
-                Services
-              </p>
-              </RevealOnScroll>
-                <RevealOnScroll>
-              <div className="mt-3 grid space-y-3 ">
-              <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/A2p"
-                >
-                  A2P SMS
-                </Link>
-                <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Voice"
-                >
-                  Voice
-                </Link>
-                <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Hr"
-                >
-                  HR 
-                </Link>
-                <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Consultancy"
-                >
-                  Consulting
-                </Link>
-                <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Managehubs"
-                >
-                    Managed Service
-                </Link>
-                <Link
-                  className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Technology"
-                >
-                  Technology Marketplce
-                </Link>
-              </div>
-              </RevealOnScroll>
-            </div>
               <RevealOnScroll>
             <div className="col-span-1 lg:-top-1">
               <p
@@ -141,14 +94,11 @@ function End() {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/Carrers"
+                    to="/Services"
                   >
-                    Careers
+                    Services
                   </Link>
-                  <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
-                    We're hiring
-                  </span>
-                </p>
+              </p>
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
@@ -182,16 +132,10 @@ function End() {
                 (+91) 9924494266
               </p>
               </RevealOnScroll>
-              <RevealOnScroll>
-
-              <p className="p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
-                (+91) 9913439794
-              </p>
-              </RevealOnScroll>
-              
+            
               <p className="p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
               
-                hr@arrowtelelink.com
+                info@smscloudhub.com
               </p>
             </div>
           </div>
@@ -199,7 +143,7 @@ function End() {
           <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
             <div className="flex justify-between items-center">
               <p className="text-sm text-gray-400 cursor-text">
-                ©All Rights Reserved by Arrow Telelink.
+                ©All Rights Reserved by SMSCloud Hub.
               </p>
             </div>
 

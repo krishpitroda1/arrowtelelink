@@ -55,32 +55,16 @@ function About() {
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-sky-600 text-2xl font-bold p-5">
+            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           <RevealOnScroll>
 
-          Arrow TeleLink is a professional network led by Ashish Bavishi & Few industry stalwarts that specialises in IT and telecom consulting, HR, VAS, Technology and Funding.
-   </RevealOnScroll>
+          SMSCloud Hub provides solutions for better customer engagement through a cloud
+based platform empowering businesses to engage with their people through a variety of 
+channels, making their communication conversational, more personalized, fun, 
+meaningful, and with ease.</RevealOnScroll>
             </h1>
-            <p className="p-5 pt-0 text-xl text-black">
-             <RevealOnScroll>
-
-             With over 30 years of telecommunications experience, we use our expertise to bring organisations together and form new partnerships. 
-</RevealOnScroll>
-            </p>
-            <p className="p-5 pt-0 text-xl">The goal is to plug in the gaps of the industry and provide right resource, right advise and right technology making TCO affordable. 
-
-
-</p>
-            <p className="p-5 pt-0 text-xl">
-             <RevealOnScroll>
-             Discover the benefits of the Arrow TeleLink Team's unique ideas by exploring our offerings as under...
-             <br />1.Consulting <br />2.HR <br />3.Technology Market Place <br />4.Managed Services
-           
-         </RevealOnScroll>
-            </p>
-            <p className="p-5 pt-0 text-xl">
-            Our primary focus is Messaging, CPaaS & Technology.
-            </p>
+          <p className="p-5 text-xl">SMSCloud Hub is a team of experts with a background in A2P SMS with operational excellence & effective support.</p>
+          <p className="p-5 text-xl">When messaging is the central to the business, we solve today’s unique customer challenges by bridging business to the world by using complex communication channels. And we thrive with A2P messaging for Indian and International market providing solutions with the right mix of Cloud Technlogy & Telecommunications</p>
           </div>
         </div>
         </RevealOnScroll>

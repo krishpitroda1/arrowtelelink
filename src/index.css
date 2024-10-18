@@ -34,7 +34,11 @@ html {
 .navbar {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color:white;
+  color: black;
+}
+ .n1{
+  background-color:white;
  }
 
 .dropdown-link:hover .dropdown-icon {

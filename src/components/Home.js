@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import videobg from "../assets/fn4.mp4";
+import videobg from "../assets/videobg.mp4";
 // import Divs from "./Divs";
 import { useEffect, useState, useRef } from "react";
-import img from "../assets/hr.jpeg";
+import img from "../assets/ccc.png";
 import img1 from '../assets/cons.jpeg';
 import img4 from '../assets/tech2.jpg'
 import img3 from "../assets/manage.jpg";
@@ -39,9 +39,10 @@ const RevealOnScroll = ({ children }) => {
   );
 };
 const words = [
-  "Consulting Services",
-  "Recruitment Services",
-  "Managed Service",
+  'Cloud InfraStructure',
+  "Channel Integration",
+  'Automatic Call Distribution',
+  'CRM Integration'
 ];
 function Home() {
   // Create a state variable to store the text opacity
@@ -78,31 +79,28 @@ function Home() {
         ></video>
 
         <div className=" relative pt-14 lg:pt-16 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-5xl flex flex-col justify-center text-sky-400  overflow-hidden">
-          <h1 className="text-white  relative font-bold p-3  mt-10 text-5xl md:py-6">
-            Unlocking Potential and Empowering Success <br />
-            <p className="font-bold text-blue-600 p-0 pt-3 text-4xl">
-              {" "}
-              We are providing Our service for <br />{" "}
-              <span className="text-green-600"> {words[index]}</span>
+          <h1 className="text-white relative font-bold p-3  mt-10 lg:text-4xl text-3xl md:py-6">
+          Shape the Future of Communication with AI – Join 1000+ MBA Students on a Nationwide Research Journey! <br />
+            <p className="font-bold text-teal-300 p-0 pt-3 text-3xl">
+            Earn, Learn, and Gain Entrepreneurial Experience While Analyzing AI's Impact on Indian Businesses.  <br />
+              {/* <span className="text-white text-4xl"> {words[index]}</span> */}
             </p>
           </h1>
 
-          <p
+          {/* <p
             className="md:text-2xl text-xl relative font-bold pt-0 p-5 text-white
             "
           >
-            We are Arrow Telelink, a leading recruitment company committed to
-            connecting exceptional talent with organizations across various
-            industries{" "}
-          </p>
+            We thrive with Platform & Managed Services in India and International Market providing 
+solutions with the right mix of Cloud Technology & Telecommunications </p> */}
         </div>
       </div>
-      {/* ------------------------------------------hr service------------------------------------------------------- */}
+      {/* ----------------------------------------- service------------------------------------------------------- */}
       <div className=" w-screen pt-8 relative pb-8">
       <RevealOnScroll>
 
-        <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          HR Services with Arrow Telelink
+        <h1 className="align-center text-g-500  pt-16 text-center p-5  font-bold text-4xl">
+          CCC with SMSCloud Hub
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
           <img
@@ -112,14 +110,10 @@ function Home() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 "> Arrow TeleLink offers HR services <br /> just to professionals in
-                  <br /> <span className="text-green-500">   the telecommunications and  technology fields   </span></p>
-             <p className="text-center p-5 text-blue-500 lg:text-3xl text-2xl ">
-             we focus on voice, SMS, business messaging <br /> and managed service
-             </p>
-            </RevealOnScroll>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 "> SMSCloud Hub provides solutions<br /> for better customer engagement <br /> through cloudbased platform</p>
+             </RevealOnScroll>
         <div className="p-3">
-                  <Link to='/Hr'>
+                  <Link to='/Services'>
                   <button className="rounded-md p-5 text-white bg-green-500 ">
                     Read More
                     
@@ -130,102 +124,7 @@ function Home() {
         </div>
         </RevealOnScroll>
       </div>
-      {/* ----------------------------------------consultancy service----------------------------------------------- */}
-      <div className=" w-screen pt-8 relative pb-8">
-      <RevealOnScroll>
-
-        <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Consultancy Services with Arrow Telelink
-        </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
-          <img
-            src={img1}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
-            alt=""
-          />
-          <div className="flex flex-col justify-center text-center mx-auto ">
-            <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Adopting a proactive company model   <br /> <span className="text-green-500">is essential to their survival and expansion <br /> aspects to Arrow Telelink  </span></p>
-             <p className="text-center p-5 text-blue-500 lg:text-3xl text-2xl ">
-
-             The businesses that can quickly and adeptly change <br /> and create new value will be the ones <br /> that succeed in the future  </p>
-            </RevealOnScroll>
-        <div className="p-3">
-                  <Link to="/Consultancy">
-                  <button className="rounded-md p-5 text-white bg-green-500 ">
-                    Read More
-                    
-                    </button>
-                  </Link>
-                </div>
-          </div>
-        </div>
-        </RevealOnScroll>
-      </div>
-      {/* ----------------------------------------manage service-----------------------------------------------------*/}
-      <div className=" w-screen pt-8 relative pb-8">
-      <RevealOnScroll>
-
-        <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Managed Services with Arrow Telelink
-        </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
-          <img
-            src={img3}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
-            alt=""
-          />
-          <div className="flex flex-col justify-center text-center mx-auto ">
-            <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Focus to your core Business Operations  <br /> <span className="text-green-500">and leaving the technical and operational <br /> aspects to Arrow Telelink  </span></p>
-             <p className="text-center p-5 text-blue-500 lg:text-3xl text-2xl ">
-
-             Arrow Telelink is the first choice  to mangae <br /> the SMS Hubs for Telecom Operators
-             </p>
-            </RevealOnScroll>
-        <div className="p-3">
-                  <Link to="/Managehubs">
-                  <button className="rounded-md p-5 text-white bg-green-500 ">
-                    Read More
-                    
-                    </button>
-                  </Link>
-                </div>
-          </div>
-        </div>
-        </RevealOnScroll>
-      </div>
-      {/* ---------------------------------------Tech market place----------------------------------------------------- */}
-      <div className=" w-screen pt-8 relative pb-8">
-      <RevealOnScroll>
-
-        <h1 className="align-center text-green-500  pt-16 text-center p-5  font-bold text-4xl">
-          Technology Marketplace with Arrow Telelink
-        </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2 md:p-0 sm:p-0">
-          <img
-            src={img4}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
-            alt=""
-          />
-          <div className="flex flex-col justify-center text-center mx-auto ">
-            <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-blue-500 ">Technology markets are an important <br /> tool for promoting
-
-<br /> <span className="text-green-500">technology and a valuable source of <br /> data for technological intelligence  </span></p>
-  </RevealOnScroll>
-        <div className="p-3">
-                  <Link to='/Technology'>
-                  <button className="rounded-md p-5 text-white bg-green-500 ">
-                    Read More
-                    
-                    </button>
-                  </Link>
-                </div>
-          </div>
-        </div>
-        </RevealOnScroll>
-      </div>
+  
       </div>
   );
 }

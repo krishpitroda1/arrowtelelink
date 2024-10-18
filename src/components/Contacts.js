@@ -104,7 +104,7 @@ function Contacts() {
             </div>
           </div>
           <div class="mt-4 grid">
-            <input type="submit" value='Send Inquiry' class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-500 text-white hover:bg-blue-700 disabled:opacity-0 disabled:pointer-events-none dark:focus:outline-none" />
+            <input type="submit" value='Send Inquiry' class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-700 text-white hover:bg-blue-900 disabled:opacity-0 disabled:pointer-events-none dark:focus:outline-none" />
           </div>
 
           <div class="mt-3 text-center">
@@ -118,11 +118,14 @@ function Contacts() {
         <RevealOnScroll><div class="flex gap-x-7 py-6">
          <FaWhatsapp className='flex-shrink-0 w-6 h-6 mt-1.5 text-green-600' />
           <div class="grow">
+            <Link  to="https://wa.me/+919924494266" className='hover:text-green-600'>
             <h3 class="font-semibold text-sky-600">Whatsapp</h3>
             <p class="mt-1 text-sm text-gray-500">Message On Whatsapp for answers to anything you might ask.</p>
-            <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800" href="#">
-              Message On (+91)9913439794 For Whatsapp
-           </a>
+            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900">
+              Message On (+91)9924494266 For Whatsapp
+           </Link>
+           </Link>
+          
           </div>
         </div>
         </RevealOnScroll>
@@ -131,7 +134,7 @@ function Contacts() {
           <div class="grow">
             <h3 class="font-semibold text-sky-600">Linkedin</h3>
             <p class="mt-1 text-sm text-gray-500">Connnect With our company on Linkedin</p>
-            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 " to="https://ww
+            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900 " to="https://ww
             w.linkedin.com/company/smscloudhub/">
               Connect Us on Linkedin
               <svg class="flex-shrink-0 w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
